@@ -57,20 +57,21 @@
     <h2 class="sm-heading">
       This is how you can reach me...
     </h2>
-    <div class="boxes">
-      <div>
-        <a> lawrencedavis1010@gmail.com </a>
-      </div>
-      <div class="icons">
-        <a href="https://www.facebook.com/lawrence.davis.50552">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/lawrence-davis-9b0070139/">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="https://github.com/Heero04">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
+    <div class="container">
+      <form id="contact form" method="POST" action="contact-form-handler.php">
+    
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="" required>
+    
+       <label for='email'>Email</label>
+       <input type="text" name="email" placeholder="" required>
+    
+        <label for="subject">Message</label>
+        <input type="stext" name="message" placeholder=""  required>
+    
+        <button type="submit" name="submit"> submit </button>
+    
+      </form>
     </div>
   </main>
 
